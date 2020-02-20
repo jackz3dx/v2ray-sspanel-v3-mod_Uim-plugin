@@ -2,7 +2,7 @@ version: '2'
 
 services:
  v2ray:
-    image: githubphone/v2ray_v3:go_pay
+    image: splendidwrx/v2ray_v3:go_4.19
     restart: always
     network_mode: "host"
     environment:
